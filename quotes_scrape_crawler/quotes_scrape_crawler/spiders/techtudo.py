@@ -11,7 +11,7 @@ class testeSpider(scrapy.Spider):
         for data in response.css('div.feed-post-body'):
             yield {
                 'titulo': data.css('a.feed-post-link::text').get(),
-                'resumo': data.css('div.feed-post-body-resumo::text').get(),
+                'resumo': data.css('div.feed-post-body-resumo div._s::text').get(),
                 'tempo': data.css('span.feed-post-datetime::text').get(),
                 'secao': data.css('span.feed-post-metadata-section::text').get()
             }

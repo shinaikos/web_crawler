@@ -5,7 +5,7 @@ import scrapy
 class tecnoblogSpider(scrapy.Spider):
     name = 'tecnoblog'
     allowed_domains = ['tecnoblog.net']
-    start_urls = ['https://tecnoblog.net/', 'https://tecnoblog.net/page/3/']
+    start_urls = ['https://tecnoblog.net/page/2/']
 
     def parse(self, response):
         for data in response.css('article.bloco'):
