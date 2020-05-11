@@ -2,8 +2,8 @@
 
 ## Eckton Junior  - RA: 318212233
 ## Rodrigo Pires  - RA: 31725642
-## Welbert Issack - RA: 31624772
-
+## Welbert Isaak - RA: 31624772
+## Gabriel Vinicius Carvalho - RA: 317212869
 
 
 ###Descreva o website em que foi feita a coleta de dados:
